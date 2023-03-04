@@ -1,0 +1,33 @@
+header {
+  padding: 16px;
+  background-color: #424242;
+}
+
+.header__content{
+  margin: auto;
+  max-width: 1366px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+.header__navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.header__navigation a {
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.header__navigation a:hover {
+  opacity: 0.5;
+}

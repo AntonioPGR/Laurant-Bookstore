@@ -1,0 +1,75 @@
+/* Global Styles */
+body{
+  background-color: #303030;
+}
+
+.goBack{
+  display: block;
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #666;
+}
+
+/* Main Container */
+main {
+  margin: auto;
+  max-width: 1300px;
+  background-color: #303030;
+  padding: 16px;
+  min-height: 96vh;
+}
+
+.book {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 32px;
+}
+
+.book__cover{
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+.book__info{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.book__image:hover{
+  filter: brightness(.8);
+}
+
+.book__title {
+  font-size: 54px;
+  color: #b2b2b2;
+}
+
+.book__author {
+  font-size: 26px;
+  color: #666;
+}
+
+.book__price{
+  font-size: 44px;
+  color: #b2b2b2;
+  margin: 32px 0;
+}
+
+.book__btn{
+  padding: 16px;
+  border-radius: 20px;
+  font-size: 22px;
+  max-width: 300px;
+  background-color: transparent;
+  border: 1px solid #8f8f8f;
+  color: #8f8f8f;
+  font-weight: 600;
+  transition: background-color .5s;
+}
+
+.book__btn:hover{
+  background-color: #8f8f8f;
+  border: 1px solid #303030;
+  color: #303030;
+  cursor: pointer;
+}
